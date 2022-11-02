@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="source/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="tabs-container">
+        <div class="tabs-title">
+            <h2 class="tab-button tab-active">Горный велосипед</h2>
+            <h2 class="tab-button">Женский велосипед</h2>
+        </div>
+        <div class="tabs-content">
+            <div class="tab tab-mountain content--active"> 
+                <div class="tab-info">
+                    <div class="tab-info__image">
+                        <picture>
+                            <source type="image/webp" media="(max-width: 768px)" srcset="source/img/mountain-2.webp, source/img/mountain-2@2x.webp 2x">
+                            <source type="image/webp" srcset="source/img/mountain.webp, source/img/mountain@2x.webp 2x">
+                            <source media="(max-width: 768px)" srcset="source/img/mountain-2.png, source/img/mountain-2@2x.png 2x">
+                            <img src="source/img/mountain.png" alt="Велосипед STELS Navigator 510 HD 26 2022" srcset="source/img/mountain@2x.png 2x">
+                        </picture>
+                    </div>
+                    <!-- /.mountain-info__image -->
+                    <div class="tab-info__text">
+                        <h1>Велосипед STELS Navigator 510 HD 26 2022</h1>
+                        <p>Данный велосипед с колесами 26 дюймов хорошо подходит высоким подросткам. Прогиб рамы и небольшой размер рамы расчитан на рост от 135 до 165 см.</p>
+                        <p>Суммарный вес велосипеда был снижен до 16,9 кг, так как рама была изготовлена с учетом использования велосипеда подростками.</p>
+                    </div>
+                    <!-- /.mountain-info__text -->
+                </div>
+                <!-- /.tab__mountain-info -->
+                <div class="tab-characteristics">
+                    <h3>Характеристики</h3>
+                    <ul class="characteristics-list">
+                        <li>1. Двойной обод</li>
+                        <li>2. Алюминиевый сплав</li>
+                        <li>3. Колеса диаметром 26 дюймов</li>
+                        <li>4. Покрышки 26х1,95"</li>
+                    </ul>
+                    <div class="characteristics-new">
+                        <h3>Добавить характеристику</h3>
+                        <form class="characteristics-input" method="post">
+                            <input type="text" placeholder="Алюминиевый сплав" class="characteristics-value" required>
+                            <button type="submit" class="characteristics-add">Добавить</button>
+                        </form> 
+                    </div>
+                    <!-- /.mountain-characteristics__input -->
+                </div>
+                <!-- /.tab__mountain-characteristics -->
+            </div> 
+            <div class="tab tab-woman"> 
+                <div class="tab-info">
+                    <div class="tab-info__image">
+                        <picture>
+                            <source type="image/webp" media="(max-width: 768px)" srcset="source/img/woman-2.webp, source/img/woman-2@2x.webp 2x">
+                            <source type="image/webp" srcset="source/img/woman.webp, source/img/woman@2x.webp 2x">
+                            <source media="(max-width: 768px)" srcset="source/img/woman-2.png, source/img/woman-2@2x.png 2x">
+                            <img src="source/img/woman.png" alt="Велосипед SCHWINN Traveler women 2022" srcset="source/img/woman@2x.png 2x">
+                        </picture>
+                    </div>
+                    <!-- /.tab-info__image -->
+                    <div class="tab-info__text">
+                        <h1>Велосипед SCHWINN Traveler women 2022</h1>
+                        <p>Женский велосипед со стальной рамой Classic step-true lightweight позволяет девушкам без проблем его перемещать.</p>
+                        <p>На данном велосипеде имеется 7 скоростей с переключателями от Shimano, а жесткая вилка обеспечивает отличную управляемость. Подходит для катания по асфальтированным поверхностям.</p>
+                    </div>
+                    <!-- /.tab-info__text -->
+                </div>
+                <!-- /.tab-info -->
+                <div class="tab-characteristics">
+                    <h3>Характеристики</h3>
+                    <ol class="characteristics-list characteristics-list--woman">
+                        <li>1. Стальная рама</li>
+                        <li>2. Жесткая вилка</li>
+                        <li>3. Колеса диаметром 24 дюймов</li>
+                        <li>4. 7 скоростей</li>
+                    </ol>
+                    <div class="characteristics-new">
+                        <h3>Добавить характеристику</h3>
+                        <form class="characteristics-input characteristicsinput--woman" method="post">
+                            <input type="text" placeholder="Алюминиевый сплав" class="characteristics-value characteristics-value--woman" required>
+                            <button type="submit" class="characteristics-add characteristics-add--woman">Добавить</button>
+                        </form> 
+                    </div>
+                    <!-- /characteristics__input -->
+                </div>
+                <!-- /.tab-characteristics -->
+            </div>
+            <!-- /.tab tab-woman content--active -->
+        </div>
+        <!-- /.tabs-content -->
+    </div>
+    <!-- /.tabs-container -->
+
+    <div class="tabs-container--375">
+        <div class="tabs-title">
+            <h2 class="tab-button tab-button--mountain tab-active tab-button--375">Горный велосипед</h2>
+            <div class="tab-dropdown tab-dropdown--mountain tab-dropdown--375">
+                <div class="tab tab-mountain content--active"> 
+                    <div class="tab-info">
+                        <div class="tab-info__image">
+                            <picture>
+                                <source type="image/webp" media="(max-width: 768px)" srcset="source/img/mountain-2.webp, source/img/mountain-2@2x.webp 2x">
+                                <source type="image/webp" srcset="source/img/mountain.webp, source/img/mountain@2x.webp 2x">
+                                <source media="(max-width: 768px)" srcset="source/img/mountain-2.png, source/img/mountain-2@2x.png 2x">
+                                <img src="source/img/mountain.png" alt="Велосипед STELS Navigator 510 HD 26 2022" srcset="source/img/mountain@2x.png 2x">
+                            </picture>
+                        </div>
+                        <!-- /.mountain-info__image -->
+                        <div class="tab-info__text">
+                            <h1>Велосипед STELS Navigator 510 HD 26 2022</h1>
+                            <p>Данный велосипед с колесами 26 дюймов хорошо подходит высоким подросткам. Прогиб рамы и небольшой размер рамы расчитан на рост от 135 до 165 см.</p>
+                            <p>Суммарный вес велосипеда был снижен до 16,9 кг, так как рама была изготовлена с учетом использования велосипеда подростками.</p>
+                        </div>
+                        <!-- /.mountain-info__text -->
+                    </div>
+                    <!-- /.tab__mountain-info -->
+                    <div class="tab-characteristics">
+                        <h3>Характеристики</h3>
+                        <ul class="characteristics-list">
+                            <li>1. Двойной обод</li>
+                            <li>2. Алюминиевый сплав</li>
+                            <li>3. Колеса диаметром 26 дюймов</li>
+                            <li>4. Покрышки 26х1,95"</li>
+                        </ul>
+                        <div class="characteristics-new">
+                            <h3>Добавить характеристику</h3>
+                            <form class="characteristics-input" method="post">
+                                <input type="text" placeholder="Алюминиевый сплав" class="characteristics-value" required>
+                                <button type="submit" class="characteristics-add">Добавить</button>
+                            </form> 
+                        </div>
+                        <!-- /.mountain-characteristics__input -->
+                    </div>
+                    <!-- /.tab__mountain-characteristics -->
+                </div> 
+            </div>
+            <h2 class="tab-button tab-button--woman tab-button--375">Женский велосипед</h2>
+            <div class="tab-dropdown tab-dropdown--woman tab-dropdown--375"> 
+                <div class="tab-info">
+                    <div class="tab-info__image">
+                        <picture>
+                            <source type="image/webp" media="(max-width: 768px)" srcset="source/img/woman-2.webp, source/img/woman-2@2x.webp 2x">
+                            <source type="image/webp" srcset="source/img/woman.webp, source/img/woman@2x.webp 2x">
+                            <source media="(max-width: 768px)" srcset="source/img/woman-2.png, source/img/woman-2@2x.png 2x">
+                            <img src="source/img/woman.png" alt="Велосипед SCHWINN Traveler women 2022" srcset="source/img/woman@2x.png 2x">
+                        </picture>
+                    </div>
+                    <!-- /.tab-info__image -->
+                    <div class="tab-info__text">
+                        <h1>Велосипед SCHWINN Traveler women 2022</h1>
+                        <p>Женский велосипед со стальной рамой Classic step-true lightweight позволяет девушкам без проблем его перемещать.</p>
+                        <p>На данном велосипеде имеется 7 скоростей с переключателями от Shimano, а жесткая вилка обеспечивает отличную управляемость. Подходит для катания по асфальтированным поверхностям.</p>
+                    </div>
+                    <!-- /.tab-info__text -->
+                </div>
+                <!-- /.tab-info -->
+                <div class="tab-characteristics">
+                    <h3>Характеристики</h3>
+                    <ol class="characteristics-list characteristics-list--woman">
+                        <li>1. Стальная рама</li>
+                        <li>2. Жесткая вилка</li>
+                        <li>3. Колеса диаметром 24 дюймов</li>
+                        <li>4. 7 скоростей</li>
+                    </ol>
+                    <div class="characteristics-new">
+                        <h3>Добавить характеристику</h3>
+                        <form class="characteristics-input characteristicsinput--woman" method="post">
+                            <input type="text" placeholder="Алюминиевый сплав" class="characteristics-value characteristics-value--woman" required>
+                            <button type="submit" class="characteristics-add characteristics-add--woman">Добавить</button>
+                        </form> 
+                    </div>
+                    <!-- /characteristics__input -->
+                </div>
+                <!-- /.tab-characteristics -->
+            </div>
+            <!-- /.tab tab-woman content--active -->
+        </div>
+    </div>
+    <!-- /.tabs-container--768 -->
+    
+</body>
+    <script src="source/js/tabs.js"></script>
+    <script src="source/js/addCharacteristics.js"></script>
+    <script src="source/js/accordeon.js"></script>
+</html>     
